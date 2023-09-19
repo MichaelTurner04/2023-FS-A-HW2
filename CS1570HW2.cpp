@@ -1,5 +1,8 @@
-// CS1570HW2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Name: Michael Turner
+//ID: 18229090
+//Date: 9-18-2023
+//Filename: CS1570HW2
+//Purpose: Homework 2 assignment
 
 #include <iostream>
 #include <string>
@@ -60,12 +63,12 @@ int main(){
         cin.ignore();
         getline(cin, newWisdom); //get whole sentence
         cout << "Your personal wisdome: " << newWisdom << endl; //displays updated wisdom
-        cout << "Your wisdom is " << newWisdom.length() << "characters long. Thank you for sharing!" << endl; // displays length of the wisdom
+        cout << "Your wisdom is " << newWisdom.length() << " characters long. Thank you for sharing!" << endl; // displays length of the wisdom
     }
     else if (reflect == "n")
         cout << "Thank you for sharing!" << endl;
 
-    cout << "Imagin you're dividing a lifetime of experiences, represented in days, amongst a number of books. How many days of expereince do you have? "; //Chapter 7
+    cout << "Imagine you're dividing a lifetime of experiences, represented in days, amongst a number of books. How many days of expereince do you have? "; //Chapter 7
     cin >> daysExperience;
     cout << "How many books do you wish to divide these experiences into? ";
     cin >> books;
